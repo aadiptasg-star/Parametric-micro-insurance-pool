@@ -1,5 +1,9 @@
 # Parametric Micro-Insurance Pool dApp
 
+## Deployed Contract Address (Stellar Testnet)
+* **Contract ID**: `CCGZKCIVFOZGIJWBTLKTNTENROSLRMJAARQQC3HXWPXVPBX3FRCLADJE`
+* **Stellar Expert Explorer Link**: [Verify Contract on Stellar Expert](https://stellar.expert/explorer/testnet/contract/CCGZKCIVFOZGIJWBTLKTNTENROSLRMJAARQQC3HXWPXVPBX3FRCLADJE)
+
 A parametric micro-insurance decentralized application built on the Stellar Testnet. This dApp allows users to pay a small premium in XLM to join a shared insurance pool for a defined period. If a designated oracle triggers a payout event (e.g. simulating weather anomalies or flight delays) with a reasoning log, the Soroban smart contract automatically and proportionally distributes the entire accumulated contract pool balance to all currently active policyholders.
 
 ## Tech Stack

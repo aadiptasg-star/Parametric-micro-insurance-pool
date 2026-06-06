@@ -1,0 +1,70 @@
+# ==============================================================================
+# Parametric Micro-Insurance Pool dApp - .gitignore
+# ==============================================================================
+
+# OS Metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+
+# Node / Package Managers (Frontend)
+node_modules/
+/frontend/node_modules/
+/frontend/.next/
+/frontend/out/
+/frontend/build/
+
+# Next.js telemetry & cache
+.next/
+/frontend/.next/cache/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+bun-debug.log*
+lerna-debug.log*
+
+# Rust / Cargo (Contracts)
+target/
+/contracts/target/
+**/*.rs.bk
+Cargo.lock.backup
+
+# Testing
+/frontend/coverage/
+
+# Environment / Secret Configurations
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+# Diagnostic / Backup files
+*.bak
+*.tmp
+*.temp
